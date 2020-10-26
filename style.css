@@ -1,0 +1,66 @@
+body {
+    background: #763AB3;
+    font-family: serif;
+}
+
+form {
+    width: 500px;
+    margin: 15% auto;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 20px 40px rgb(0, 0, 0);
+}
+
+.input-box {
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding-left: 50px;
+    background: #efefef;
+}
+
+span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(to right, #4CAF50, #00BCD4);
+}
+
+span .fa {
+    color: #fff;
+    padding: 10px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    margin-left: 10%;
+    display: block;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    background: linear-gradient(to right, #4CAF50, #00BCD4);
+    box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button .fa {
+    margin-left: -30px;
+    padding: 10px;
+}
+
+form img {
+    width: 100px;
+    margin-top: -120px;
+    stroke: #fff;
+}
